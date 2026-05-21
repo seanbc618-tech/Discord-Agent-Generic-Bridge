@@ -14,7 +14,17 @@ Repository: `https://github.com/seanbc618-tech/Discord-Agent-Generic-Bridge`
 
 ## Install
 
+From npm:
+
 ```bash
+npm install discord-cli-agent-bridge
+```
+
+From GitHub source:
+
+```bash
+git clone https://github.com/seanbc618-tech/Discord-Agent-Generic-Bridge.git
+cd Discord-Agent-Generic-Bridge
 npm install
 npm run build
 node dist/index.js
@@ -54,9 +64,17 @@ In practice, that means:
 
 ### 1. Install dependencies
 
+If you are starting from the GitHub repository:
+
 ```bash
 npm install
 npm run build
+```
+
+If you are starting from the npm package:
+
+```bash
+npm install discord-cli-agent-bridge
 ```
 
 ### 2. Prepare private runtime config
@@ -82,8 +100,16 @@ Optional environment variables:
 
 ### 3. Start the bridge
 
+From a GitHub checkout:
+
 ```bash
 node dist/index.js
+```
+
+From an installed npm package:
+
+```bash
+node node_modules/discord-cli-agent-bridge/dist/index.js
 ```
 
 If you prefer a wrapper script or PM2 deployment, see:
