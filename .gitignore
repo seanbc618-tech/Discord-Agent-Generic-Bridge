@@ -1,0 +1,13 @@
+node_modules/
+dist/
+.env
+.env.*
+*.local.json
+*.local.*
+config/*.json
+!config/examples/*.json
+runtime/
+logs/
+*.log
+**/discord-session-map.json
+**/sessions/

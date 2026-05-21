@@ -1,0 +1,17 @@
+{
+  "allowedUserIds": [
+    "123456789012345678",
+    "234567890123456789"
+  ],
+  "homeChannelId": "345678901234567890",
+  "allowBotMessages": false,
+  "requireMentionOutsideHome": true,
+  "specialChannels": {
+    "456789012345678901": {
+      "mode": "coordinator"
+    },
+    "567890123456789012": {
+      "mode": "silent-when-other-mentioned"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "agentName": "fast-agent",
+  "profileDir": "../../runtime/fast-agent",
+  "piCommand": "../../runtime/fast-agent/run-agent.sh",
+  "personaPrompt": "../../examples/prompts/SYSTEM.example.md",
+  "sharedPrompt": "../../examples/prompts/DISCORD_RULES.example.md",
+  "sessionMapFile": "../../runtime/fast-agent/discord-session-map.json",
+  "sessionsDir": "../../runtime/fast-agent/agent/sessions",
+  "discordTokenEnv": "DISCORD_BOT_TOKEN",
+  "successReaction": "⚡"
+}

@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+# Copy this file privately and replace placeholders.
+# Keep live secrets out of git.
+
+export HTTP_PROXY="${HTTP_PROXY:-http://127.0.0.1:7890}"
+export HTTPS_PROXY="${HTTPS_PROXY:-http://127.0.0.1:7890}"
+export BRIDGE_AGENT_CONFIG="${BRIDGE_AGENT_CONFIG:-$(pwd)/config/examples/agent.example.json}"
+export BRIDGE_SHARED_CONFIG="${BRIDGE_SHARED_CONFIG:-$(pwd)/config/examples/shared.example.json}"
+export DISCORD_BOT_TOKEN="${DISCORD_BOT_TOKEN:-<set-me>}"
+
+exec node "$(pwd)/dist/index.js"
