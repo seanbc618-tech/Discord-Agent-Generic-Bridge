@@ -24,6 +24,9 @@
     "node": ">=20"
   },
   "main": "./dist/index.js",
+  "bin": {
+    "discord-cli-agent-bridge": "./dist/index.js"
+  },
   "files": [
     "dist",
     "README.md",

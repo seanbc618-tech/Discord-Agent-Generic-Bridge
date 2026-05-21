@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import { createRequire } from "node:module";
 import { loadBridgeConfig } from "./config.js";
 import { MessageRouter } from "./router.js";
