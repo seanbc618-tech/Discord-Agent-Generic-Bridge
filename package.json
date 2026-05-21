@@ -1,6 +1,6 @@
 {
   "name": "discord-cli-agent-bridge",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A configurable Discord bridge for local CLI agents, with a built-in pi-oriented subprocess adapter.",
   "type": "module",
   "license": "MIT",
